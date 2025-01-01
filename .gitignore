@@ -1,0 +1,33 @@
+# Ignore the virtual environment directory
+venv/
+
+# Ignore the `.env` file (if used for environment variables)
+.env
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the package distribution folder
+build/
+dist/
+*.egg-info/
+
+# Ignore log files
+*.log
+
+# Ignore IDE and editor directories (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore the dump.rdb file (used by Redis)
+dump.rdb
+
+# Ignore Docker configuration files (if you use Docker)
+docker-compose.yml
+Dockerfile
